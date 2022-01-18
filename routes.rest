@@ -1,0 +1,41 @@
+### API V1
+
+### GET
+GET http://localhost:3001/api/v1
+
+### GET WITH ID
+GET http://localhost:3001/api/v1/61de2a5eb28167676de71b3e
+
+### POST
+POST http://localhost:3001/api/v1
+Content-Type: application/json
+
+{
+    "name": "Laptop Thinkpad",
+    "price": 6000000,
+    "stock": 12,
+    "status": true
+}
+
+### DELETE WITH ID
+DELETE http://localhost:3001/api/v1/61e6294eb9d5b0445dc77b4a
+
+### UPDATE WITH ID
+PATCH http://localhost:3001/api/v1/24
+
+### API V2
+
+### GET
+GET http://localhost:3001/api/v2
+
+### GET WITH ID
+GET http://localhost:3001/api/v2/61de2af091d86c2d490d952e
+
+### POST
+POST http://localhost:3001/api/v2
+
+### DELETE WITH ID
+DELETE http://localhost:3001/api/v2/24
+
+### UPDATE WITH ID
+PATCH http://localhost:3001/api/v2/24
